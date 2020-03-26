@@ -1,0 +1,1066 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Portfolio Placeholder</title>
+<link rel="icon" type="">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+<!--FONT-->
+<link href="https://fonts.googleapis.com/css?family=Share&display=swap" rel="stylesheet">  
+<!--FONT-->
+    
+<!--lINK TO STYLESHEET-->
+<link rel="stylesheet" type="text/css" href="css/myStyle.css">   
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!--lINK TO STYLESHEET-->
+
+<!--SMOOTH SCROLL-->
+<script>
+$(document).ready(function(){
+// Add smooth scrolling to all links
+$("a").on('click', function(event) {
+
+// Make sure this.hash has a value before overriding default behavior
+if (this.hash !== "") {
+// Prevent default anchor click behavior
+event.preventDefault();
+
+// Store hash
+var hash = this.hash;
+
+// Using jQuery's animate() method to add smooth page scroll
+// The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+$('html, body').animate({
+scrollTop: $(hash).offset().top
+}, 700, function(){
+   
+// Add hash (#) to URL when done scrolling (default click behavior)
+window.location.hash = hash;
+});
+} // End if
+});
+});
+</script>  
+<!--SMOOTH SCROLL-->
+    
+	
+<script>
+$('.modal').bind('mouseenter touchstart', function(e) {
+var current = $(window).scrollTop();
+$(window).scroll(function(event) {
+$(window).scrollTop(current);
+});
+});
+$('.modal').bind('mouseleave touchend', function(e) {
+$(window).off('scroll');
+});
+</script>
+</head>   
+<body>
+    
+    
+<!--NAVBAR-->
+<nav id="nav">
+<div class="logo">
+<h2><a href="#home">Home</a></h2>
+</div>
+  
+<ul class="nav-links">
+      <li>
+          <a href="#aboutsection">ABOUT</a>
+      </li>
+      
+       <li>
+          <a href="#skillssection">SKILLS</a>
+      </li>
+      
+       <li>
+          <a href="#projectsection">PROJECTS</a>
+      </li>
+      
+       <li>
+          <a href="#footersection">CONTACT</a>
+      </li>
+</ul>
+      
+
+<!--Navbar toggle button for when users have smaller screens-->
+<div class="burger">
+<div class="line1"></div>
+<div class="line2"></div>
+<div class="line3"></div>
+</div>   
+</nav>
+<!--Navbar toggle button for when users have smaller screens-->
+<!--NAVBAR-->
+    
+    
+<!--TITLE-->   
+<div class="jumbotron jumbotron-fluid" id="home">
+<div class="container">
+<h1>JOB TITLE</h1>
+</div>
+<div class="container">
+<p id="quote">"Lorem ipsum dolor sit amet, ei per habeo legendos scripserit, cetero euismod detracto qui ei. " - Quote</p>
+</div> 
+</div>
+<!--TITLE-->
+    
+<div class="center">
+<div class="down"></div>
+</div>     
+   
+    
+<!--ABOUT SECTION-->
+<div class="container-fluid" id="aboutsection">
+<br>
+<br>
+<br>
+<br>
+<p class="abouttitle">ABOUT ME</p>
+
+<div class="container-fluid">
+<div class="row">
+<img src="#" id="aboutsectionpic" alt="picture of me">
+    
+<div class="container" id="aboutsectioninfo">
+<p>Lorem ipsum dolor sit amet, ei per habeo legendos scripserit, cetero euismod detracto qui ei. Evertitur tincidunt sed te, ut inani persecuti eum. Paulo indoctum pertinacia sit ea, duis exerci has id, pro ex rebum possim quaerendum. Noster periculis consulatu has eu, nec ex alterum appetere. 
+<br>
+<br>
+Lorem ipsum dolor sit amet, ei per habeo legendos scripserit, cetero euismod detracto qui ei. Evertitur tincidunt sed te, ut inani persecuti eum. Paulo indoctum pertinacia sit ea, duis exerci has id, pro ex rebum possim quaerendum. Noster periculis consulatu has eu, nec ex alterum appetere. 
+	
+Lorem ipsum dolor sit amet, ei per habeo legendos scripserit, cetero euismod detracto qui ei. Evertitur tincidunt sed te, ut inani persecuti eum. Paulo indoctum pertinacia sit ea, duis exerci has id, pro ex rebum possim quaerendum. Noster periculis consulatu has eu, nec ex alterum appetere. 
+</p>
+</div>
+</div>
+</div>
+    
+    
+<div class="container-fluid">
+<div class="row">  
+<a href="#" class="btn-contact1">
+<span class="content">VIEW CV</span>
+</a>
+</div>
+</div>
+</div>
+<!--ABOUT SECTION-->
+    
+    
+<!--SKILLS SECTION-->
+<div class="container-fluid">
+<div class="container-fluid" id="skillssection">
+<p class="skills">SKILLS</p>
+</div>  
+
+ 
+<div class="flex-container">
+<div id="skillbox1"><h2><i class="fa fa-code"></i>DEVELOPER</h2>
+<li>Lorem ipsum dolor sit amet</li> 
+<li>Lorem ipsum dolor sit amet</li>
+<li>Lorem ipsum dolor sit amet</li>
+<li>Lorem ipsum dolor sit amet</li>
+<li>Lorem ipsum dolor sit amet</li>
+<li>Lorem ipsum dolor sit amet</li>
+      
+<br>SECONDARY SKILLS<br>
+<ul class="box1text">
+<p>Lorem ipsum dolor sit amet</p>
+<p>Lorem ipsum dolor sit amet</p>
+<p>Lorem ipsum dolor sit amet</p>
+</ul>
+</div>
+  
+<div id="skillbox2"><h3><i class="fa fa-picture-o"></i>3DMODELLER/ANIMATOR</h3><p> 
+<li>Lorem ipsum dolor sit amet</li> 
+<li>Lorem ipsum dolor sit amet</li>
+<li>Lorem ipsum dolor sit amet</li>
+<li>Lorem ipsum dolor sit amet</li>
+<li>Lorem ipsum dolor sit amet</li>
+<li>Lorem ipsum dolor sit amet</li>
+      
+<br>SECONDARY SKILLS<br>
+<ul class="box2text">
+<p>Lorem ipsum dolor sit amet</p>
+<p>Lorem ipsum dolor sit amet</p>
+<p>Lorem ipsum dolor sit amet</p>
+</ul>
+</div>
+    
+<div id="skillbox3"><h2><i class="fa fa-paint-brush"></i>DESIGNER</h2><p> 
+<li>Lorem ipsum dolor sit amet</li> 
+<li>Lorem ipsum dolor sit amet</li>
+<li>Lorem ipsum dolor sit amet</li>
+<li>Lorem ipsum dolor sit amet</li>
+<li>Lorem ipsum dolor sit amet</li>
+<li>Lorem ipsum dolor sit amet</li>
+          
+<br>SECONDARY SKILLS<br>
+<ul class="box3text">
+<p>Lorem ipsum dolor sit amet</p>
+<p>Lorem ipsum dolor sit amet</p>
+<p>Lorem ipsum dolor sit amet</p>
+</ul>
+</div>
+</div>
+</div>
+<!--SKILLS SECTION-->
+    
+    
+<!--PROJECT SECTION-->
+<div class="container-fluid" id="projectsection">
+<br>
+<br>
+<br>
+<br>
+<p class="projecttitle">PROJECTS</p>
+   
+<div class="container-fluid">
+<div class="row">
+      
+
+<div id="myBtnContainer">
+
+<button class="btn active" onclick="filterSelection('all')"> SHOW ALL</button>
+<button class="btn" onclick="filterSelection('graphicdesign')"> GRAPHIC DESIGN</button>
+<button class="btn" onclick="filterSelection('frontenddev')"> FRONT-END DEVELOPMENT</button>
+<button class="btn" onclick="filterSelection('3dmodelling')"> 3D MODELLING</button>
+ 
+</div>
+</div>
+</div>
+
+<div class="container-fluid" id="projwid">
+    
+<div class="row">
+<div class="column graphicdesign">
+<div class="content"> 
+<a href="images/placeholder-image.jpg"><img src="images/placeholder-image.jpg" alt="#"></a>
+</div>
+</div>
+<div class="column graphicdesign">
+<div class="content">
+  <h4>Lorem ipsum dolor sit amet</h4>
+      <li>Lorem ipsum dolor sit amet</li>
+      <li>Lorem ipsum dolor sit amet</li>
+      <br>
+      <p><i><b>Lorem ipsum dolor sit amet, ei per habeo legendos scripserit, cetero euismod detracto qui ei. Evertitur tincidunt sed te, ut inani persecuti eum. Paulo indoctum pertinacia sit ea, duis exerci has id, pro ex rebum possim quaerendum.</b></i></p>
+</div>
+      
+<div id="btn">
+<button class="modal-button" href="#myModal">VIEW DESIGN</button>
+</div>	
+</div>
+</div>
+
+
+<div class="row">
+<div class="column graphicdesign">
+<div class="content">
+<a href="images/placeholder-image.jpg"><img src="images/placeholder-image.jpg" alt="#"></a>
+</div>
+</div>
+<div class="column graphicdesign">
+<div class="content">
+ <h4>Lorem ipsum dolor sit amet</h4>
+      <li>Lorem ipsum dolor sit amet</li>
+      <li>Lorem ipsum dolor sit amet</li>
+      <br>
+      <p><i><b>Lorem ipsum dolor sit amet, ei per habeo legendos scripserit, cetero euismod detracto qui ei. Evertitur tincidunt sed te, ut inani persecuti eum. Paulo indoctum pertinacia sit ea, duis exerci has id, pro ex rebum possim quaerendum.</b></i></p>
+</div>
+      
+<div id="btn">
+<button class="modal-button" href="#myModal1">VIEW DESIGN</button>
+</div>
+</div>
+</div>
+
+ 
+<div class="row">
+<div class="column frontenddev">
+<div class="content">
+<div class="gallery">
+<a href="images/placeholder-image.jpg"><img src="images/placeholder-image.jpg" alt="#"></a>
+</div>
+</div>
+</div>
+<div class="column frontenddev">
+<div class="content">
+      <h4></h4>
+      <li>Lorem ipsum dolor sit amet</li>
+      <li>Lorem ipsum dolor sit amet</li>
+      <br>
+      <p><i><b>Lorem ipsum dolor sit amet, ei per habeo legendos scripserit, cetero euismod detracto qui ei. Evertitur tincidunt sed te, ut inani persecuti eum. Paulo indoctum pertinacia sit ea, duis exerci has id, pro ex rebum possim quaerendum.</b></i></p>
+</div>
+      
+<div id="btn">
+<button class="modal-button" href="#myModal9">VIEW PROJECT</button> 
+</div>
+</div>
+</div>     
+    
+    
+<div class="row">
+<div class="column frontenddev">
+<div class="content">
+<div class="gallery">
+<a href="images/placeholder-image.jpg"><img src="images/placeholder-image.jpg" alt="#"></a>
+</div>
+</div>
+</div>
+<div class="column frontenddev">
+<div class="content">
+      <h4></h4>
+      <li>Lorem ipsum dolor sit amet</li>
+      <li>Lorem ipsum dolor sit amet</li>
+      <br>
+      <p><i><b>Lorem ipsum dolor sit amet, ei per habeo legendos scripserit, cetero euismod detracto qui ei. Evertitur tincidunt sed te, ut inani persecuti eum. Paulo indoctum pertinacia sit ea, duis exerci has id, pro ex rebum possim quaerendum.</b></i></p>
+</div>
+      
+<div id="btn">
+<button class="modal-button" href="#myModal6">VIEW PROJECT</button> 
+</div>
+</div>
+</div> 
+    
+ 
+<div class="row">
+<div class="column frontenddev">
+<div class="content">
+<div class="gallery">
+<a href="images/placeholder-image.jpg"><img src="images/placeholder-image.jpg" alt="#"></a>
+</div>
+</div>
+</div>
+<div class="column frontenddev">
+<div class="content">
+      <h4></h4>
+      <li>Lorem ipsum dolor sit amet</li>
+      <li>Lorem ipsum dolor sit amet</li>
+      <br>
+    <p><b><i>Lorem ipsum dolor sit amet, ei per habeo legendos scripserit, cetero euismod detracto qui ei. Evertitur tincidunt sed te, ut inani persecuti eum. Paulo indoctum pertinacia sit ea, duis exerci has id, pro ex rebum possim quaerendum.</i></b></p>
+</div>
+      
+<div id="btn">
+<button class="modal-button" href="#myModal7">VIEW PROJECT</button> 
+</div>
+</div>
+</div> 
+    
+    
+<div class="row">
+<div class="column frontenddev">
+<div class="content">
+<div class="gallery">
+<a href="images/placeholder-image.jpg"><img src="images/placeholder-image.jpg" alt="#"></a>
+</div>
+</div>
+</div>
+<div class="column frontenddev">
+<div class="content">
+      <h4></h4>
+      <li>Lorem ipsum dolor sit amet</li>
+      <li>Lorem ipsum dolor sit amet</li>
+      <br>
+      <p><i><b>Lorem ipsum dolor sit amet, ei per habeo legendos scripserit, cetero euismod detracto qui ei. Evertitur tincidunt sed te, ut inani persecuti eum. Paulo indoctum pertinacia sit ea, duis exerci has id, pro ex rebum possim quaerendum.</b></i></p>
+</div>
+      
+<div id="btn">
+<button class="modal-button" href="#myModal8">VIEW PROJECT</button> 
+</div>
+</div>
+</div> 
+  
+
+<div class="row">
+<div class="column 3dmodelling">
+<div class="content">
+<a href="images/placeholder-image.jpg"><img src="images/placeholder-image.jpg" alt="#"></a>
+</div>
+</div>
+<div class="column 3dmodelling">
+<div class="content">
+      <h4></h4>
+      <li>Lorem ipsum dolor sit amet</li>
+      <li>Lorem ipsum dolor sit amet</li>
+      <br>
+      <p><i><b>Lorem ipsum dolor sit amet, ei per habeo legendos scripserit, cetero euismod detracto qui ei. Evertitur tincidunt sed te, ut inani persecuti eum. Paulo indoctum pertinacia sit ea, duis exerci has id, pro ex rebum possim quaerendum.</b></i></p>
+</div>
+      
+<div id="btn">
+<button class="modal-button" href="#myModal3">VIEW 3DMODEL</button>
+</div>
+</div>
+</div> 
+    
+    
+<div class="row">
+<div class="column 3dmodelling">
+<div class="content">
+<a href="images/placeholder-image.jpg"><img src="images/placeholder-image.jpg" alt="#"></a>
+</div>
+</div>
+<div class="column 3dmodelling">
+<div class="content">
+      <h4></h4>
+      <li>Lorem ipsum dolor sit amet</li> 
+	  <li>Lorem ipsum dolor sit amet</li>
+      <br>
+      <p><i><b>Lorem ipsum dolor sit amet, ei per habeo legendos scripserit, cetero euismod detracto qui ei. Evertitur tincidunt sed te, ut inani persecuti eum. Paulo indoctum pertinacia sit ea, duis exerci has id, pro ex rebum possim quaerendum.</b></i></p>
+</div>
+      
+<div id="btn">
+<button class="modal-button" href="#myModal4">VIEW 3DMODEL</button>
+</div>
+</div>
+</div>
+    
+    
+<div class="row">
+<div class="column 3dmodelling">
+<div class="content">
+<a href="images/placeholder-image.jpg"><img src="images/placeholder-image.jpg" alt="#"></a>
+</div>
+</div>
+<div class="column 3dmodelling">
+<div class="content">
+      <h4></h4>
+      <li>Lorem ipsum dolor sit amet</li>  
+      <li>Lorem ipsum dolor sit amet</li>
+      <br>
+      <p><i><b>Lorem ipsum dolor sit amet, ei per habeo legendos scripserit, cetero euismod detracto qui ei. Evertitur tincidunt sed te, ut inani persecuti eum. Paulo indoctum pertinacia sit ea, duis exerci has id, pro ex rebum possim quaerendum.</b></i></p>
+</div>
+<div id="btn">
+<button class="modal-button" href="#myModal5">VIEW 3DMODEL</button>
+</div>
+</div>
+</div>
+</div> 
+<!-- END GRID -->
+</div>
+<!--PROJECT SECTION-->
+    
+    
+
+    
+<!--PROJECT #1 Modal-->
+<div id="myModal" class="modal">
+
+<div class="modal-content">
+<div class="modal-header">
+<span class="close">×</span>
+</div>
+      
+<div class="modal-body">    
+<div class="row">
+<div class="col-sm-12">
+<div id="demo" class="carousel slide" data-ride="carousel" data-interval="false">
+
+<div class="carousel-inner">
+<div class="carousel-item active">
+<img src="images/placeholder-image.jpg" alt="#" width="110px" height="300px">
+</div>
+    
+<div class="carousel-item">
+<img src="images/placeholder-image.jpg" alt="#" width="110px" height="300px">
+</div>
+</div>
+  
+	
+<a class="carousel-control-prev" href="#demo" data-slide="prev">
+<span class="carousel-control-prev-icon"></span>
+</a>
+    
+<a class="carousel-control-next" href="#demo" data-slide="next">
+<span class="carousel-control-next-icon"></span>
+</a>
+</div>
+
+<h3>PROJECT #1</h3> 
+<p>Lorem ipsum dolor sit amet, ei per habeo legendos scripserit, cetero euismod detracto qui ei. Evertitur tincidunt sed te, ut inani persecuti eum. Paulo indoctum pertinacia sit ea, duis exerci has id, pro ex rebum possim quaerendum.
+<br>
+<br>
+Lorem ipsum dolor sit amet, ei per habeo legendos scripserit, cetero euismod detracto qui ei. Evertitur tincidunt sed te, ut inani persecuti eum. Paulo indoctum pertinacia sit ea, duis exerci has id, pro ex rebum possim quaerendum.Lorem ipsum dolor sit amet, ei per habeo legendos scripserit, cetero euismod detracto qui ei. Lorem ipsum dolor sit amet, ei per habeo legendos scripserit, cetero euismod detracto qui ei. Evertitur tincidunt sed te, ut inani persecuti eum. Paulo indoctum pertinacia sit ea, duis exerci has id, pro ex rebum possim quaerendum.Lorem ipsum dolor sit amet, ei per habeo legendos scripserit, cetero euismod detracto qui ei.
+</p>
+</div>
+</div> 
+</div>
+
+<div class="modal-footer">
+<h3>PROJECT #1</h3>
+</div>
+</div>
+</div>   
+<!--PROJECT #1 Modal-->
+    
+    
+    
+      
+ <!--PROJECT #2 Modal -->
+<div id="myModal1" class="modal">
+
+<div class="modal-content">
+<div class="modal-header">
+<span class="close">×</span>
+</div>
+      
+<div class="modal-body">
+        
+<div class="row">
+<div class="col-sm-12">
+<div id="demo1" class="carousel slide" data-ride="carousel" data-interval="false">
+
+<div class="carousel-inner">
+<div class="carousel-item active">
+<img src="images/placeholder-image.jpg" alt="" width="110px" height="300px">
+</div>
+    
+<div class="carousel-item">
+<img src="images/placeholder-image.jpg" alt="" width="110px" height="300px">
+</div>
+</div>
+  
+	
+<a class="carousel-control-prev" href="#demo1" data-slide="prev">
+<span class="carousel-control-prev-icon"></span>
+</a>
+    
+<a class="carousel-control-next" href="#demo1" data-slide="next">
+<span class="carousel-control-next-icon"></span>
+</a>
+</div>
+      
+<h3>PROJECT #2</h3> 
+<p>Lorem ipsum dolor sit amet, ei per habeo legendos scripserit, cetero euismod detracto qui ei. Evertitur tincidunt sed te, ut inani persecuti eum. Paulo indoctum pertinacia sit ea, duis exerci has id, pro ex rebum possim quaerendum.
+<br>
+<br>
+Lorem ipsum dolor sit amet, ei per habeo legendos scripserit, cetero euismod detracto qui ei. Evertitur tincidunt sed te, ut inani persecuti eum. Paulo indoctum pertinacia sit ea, duis exerci has id, pro ex rebum possim quaerendum.Lorem ipsum dolor sit amet, ei per habeo legendos scripserit, cetero euismod detracto qui ei. Lorem ipsum dolor sit amet, ei per habeo legendos scripserit, cetero euismod detracto qui ei. Evertitur tincidunt sed te, ut inani persecuti eum. Paulo indoctum pertinacia sit ea, duis exerci has id, pro ex rebum possim quaerendum.Lorem ipsum dolor sit amet, ei per habeo legendos scripserit, cetero euismod detracto qui ei.
+</p>
+</div>       
+</div>
+</div>
+            
+<div class="modal-footer">
+<h3>PROJECT #2</h3>
+</div>      
+</div> 
+</div>   
+ <!--PROJECT #2 Modal -->
+    
+     
+	
+	
+<!--MISSING MODAL 2-->
+	
+	
+	
+    
+<!--PROJECT #7 Modal-->
+<div id="myModal3" class="modal">
+
+<div class="modal-content">
+<div class="modal-header">
+<span class="close">×</span>
+</div>
+      
+<div class="modal-body">
+<div class="row">
+<div class="col-sm-12">
+<div id="demo3" class="carousel slide" data-ride="carousel" data-interval="false">
+
+    
+<div class="carousel-inner">
+<div class="carousel-item active">
+<video width="100%" controls>
+<source src="" type="video/mp4">
+<source src="" type="video/ogg">
+Your browser does not support HTML5 video.
+</video>  
+</div>
+    
+    
+<div class="carousel-item">
+<img src="images/placeholder-image.jpg" alt="" width="110px" height="300px">
+</div>
+    
+<div class="carousel-item">
+<img src="images/placeholder-image.jpg" alt="" width="110px" height="300px">
+</div>
+</div>
+  
+    
+<a class="carousel-control-prev" href="#demo3" data-slide="prev">
+<span class="carousel-control-prev-icon"></span>
+</a>
+    
+<a class="carousel-control-next" href="#demo3" data-slide="next">
+<span class="carousel-control-next-icon"></span>
+</a>
+</div>
+
+       
+<h3>PROJECT #7</h3> 
+<p>Lorem ipsum dolor sit amet, ei per habeo legendos scripserit, cetero euismod detracto qui ei. Evertitur tincidunt sed te, ut inani persecuti eum. Paulo indoctum pertinacia sit ea, duis exerci has id, pro ex rebum possim quaerendum.
+<br>
+<br>
+Lorem ipsum dolor sit amet, ei per habeo legendos scripserit, cetero euismod detracto qui ei. Evertitur tincidunt sed te, ut inani persecuti eum. Paulo indoctum pertinacia sit ea, duis exerci has id, pro ex rebum possim quaerendum.Lorem ipsum dolor sit amet, ei per habeo legendos scripserit, cetero euismod detracto qui ei. Lorem ipsum dolor sit amet, ei per habeo legendos scripserit, cetero euismod detracto qui ei. Evertitur tincidunt sed te, ut inani persecuti eum. Paulo indoctum pertinacia sit ea, duis exerci has id, pro ex rebum possim quaerendum.Lorem ipsum dolor sit amet, ei per habeo legendos scripserit, cetero euismod detracto qui ei.
+</p>
+</div>      
+</div>
+</div>
+            
+
+<div class="modal-footer">
+<h3>PROJECT #7</h3>
+</div>      
+</div>   
+</div>   
+<!--PROJECT #7 Modal-->
+    
+    
+    
+    
+<!--PROJECT 8# Modal-->
+<div id="myModal4" class="modal">
+
+<div class="modal-content">
+<div class="modal-header">
+<span class="close">×</span>
+</div>
+      
+<div class="modal-body">
+<div class="row">
+<div class="col-sm-12">
+<div id="demo4" class="carousel slide" data-ride="carousel" data-interval="false">
+
+    
+<div class="carousel-inner">
+<div class="carousel-item active">
+<img src="images/placeholder-image.jpg" alt="" width="110px" height="300px">
+</div>
+    
+<div class="carousel-item">
+<img src="images/placeholder-image.jpg" alt="" width="110px" height="300px">
+</div> 
+</div>
+  
+    
+<a class="carousel-control-prev" href="#demo4" data-slide="prev">
+<span class="carousel-control-prev-icon"></span>
+</a>
+    
+<a class="carousel-control-next" href="#demo4" data-slide="next">
+<span class="carousel-control-next-icon"></span>
+</a>
+</div>
+
+          
+<h3>PROJECT #8</h3> 
+<p>Lorem ipsum dolor sit amet, ei per habeo legendos scripserit, cetero euismod detracto qui ei. Evertitur tincidunt sed te, ut inani persecuti eum. Paulo indoctum pertinacia sit ea, duis exerci has id, pro ex rebum possim quaerendum.
+<br>
+<br>
+Lorem ipsum dolor sit amet, ei per habeo legendos scripserit, cetero euismod detracto qui ei. Evertitur tincidunt sed te, ut inani persecuti eum. Paulo indoctum pertinacia sit ea, duis exerci has id, pro ex rebum possim quaerendum.Lorem ipsum dolor sit amet, ei per habeo legendos scripserit, cetero euismod detracto qui ei. Lorem ipsum dolor sit amet, ei per habeo legendos scripserit, cetero euismod detracto qui ei. Evertitur tincidunt sed te, ut inani persecuti eum. Paulo indoctum pertinacia sit ea, duis exerci has id, pro ex rebum possim quaerendum.Lorem ipsum dolor sit amet, ei per habeo legendos scripserit, cetero euismod detracto qui ei.
+</p>
+</div>   
+</div>
+
+<div class="modal-footer">
+<h3>PROJECT #8</h3>
+</div>     
+</div> 
+</div> 
+</div>
+<!--PROJECT #8 Modal-->
+    
+    
+    
+    
+<!--PROJECT #9 Modal-->
+<div id="myModal5" class="modal">
+
+<div class="modal-content">
+<div class="modal-header">
+<span class="close">×</span>
+</div>
+      
+<div class="modal-body">
+<div class="row">
+<div class="col-sm-12">
+<div id="demo5" class="carousel slide" data-ride="carousel" data-interval="false">
+  
+    
+<div class="carousel-inner">
+<div class="carousel-item active">
+<img src="images/placeholder-image.jpg" alt="" width="110px" height="300px">
+</div>
+    
+<div class="carousel-item">
+<img src="images/placeholder-image.jpg" alt="" width="110px" height="300px">
+</div>
+</div>
+  
+    
+<a class="carousel-control-prev" href="#demo5" data-slide="prev">
+<span class="carousel-control-prev-icon"></span>
+</a>
+    
+<a class="carousel-control-next" href="#demo5" data-slide="next">
+<span class="carousel-control-next-icon"></span>
+</a>
+</div>
+
+          
+<h3>PROJECT #9</h3> 
+<p>Lorem ipsum dolor sit amet, ei per habeo legendos scripserit, cetero euismod detracto qui ei. Evertitur tincidunt sed te, ut inani persecuti eum. Paulo indoctum pertinacia sit ea, duis exerci has id, pro ex rebum possim quaerendum.
+<br>
+<br>
+Lorem ipsum dolor sit amet, ei per habeo legendos scripserit, cetero euismod detracto qui ei. Evertitur tincidunt sed te, ut inani persecuti eum. Paulo indoctum pertinacia sit ea, duis exerci has id, pro ex rebum possim quaerendum.Lorem ipsum dolor sit amet, ei per habeo legendos scripserit, cetero euismod detracto qui ei. Lorem ipsum dolor sit amet, ei per habeo legendos scripserit, cetero euismod detracto qui ei. Evertitur tincidunt sed te, ut inani persecuti eum. Paulo indoctum pertinacia sit ea, duis exerci has id, pro ex rebum possim quaerendum.Lorem ipsum dolor sit amet, ei per habeo legendos scripserit, cetero euismod detracto qui ei.
+</p>
+</div> 
+</div>
+
+<div class="modal-footer">
+<h3>PROJECT #9</h3>
+</div>     
+</div>
+</div>
+</div>   
+<!--PROJECT #9 Modal--> 
+    
+    
+    
+    
+<!--PROJECT #4 Modal-->
+<div id="myModal6" class="modal">
+
+
+<div class="modal-content">
+<div class="modal-header">
+<span class="close">×</span>
+</div>
+      
+<div class="modal-body">
+<div class="row">
+<div class="col-sm-12">
+<div id="demo6" class="carousel slide" data-ride="carousel" data-interval="false">
+
+    
+<div class="carousel-inner">
+<div class="carousel-item active">
+<img src="images/placeholder-image.jpg" alt="#" width="110px" height="300px">
+</div>
+    
+<div class="carousel-item">
+<img src="images/placeholder-image.jpg" alt="#" width="110px" height="300px">
+</div>
+    
+<div class="carousel-item">
+<video width="100%" controls>
+<source src="" type="video/mp4">
+<source src="" type="video/ogg">
+Your browser does not support HTML5 video.
+</video> 
+</div>
+</div>
+  
+   
+<a class="carousel-control-prev" href="#demo6" data-slide="prev">
+<span class="carousel-control-prev-icon"></span>
+</a>
+    
+<a class="carousel-control-next" href="#demo6" data-slide="next">
+<span class="carousel-control-next-icon"></span>
+</a>
+</div>
+
+
+<h3>PROJECT #4</h3> 
+<p>Lorem ipsum dolor sit amet, ei per habeo legendos scripserit, cetero euismod detracto qui ei. Evertitur tincidunt sed te, ut inani persecuti eum. Paulo indoctum pertinacia sit ea, duis exerci has id, pro ex rebum possim quaerendum.
+<br>
+<br>
+Lorem ipsum dolor sit amet, ei per habeo legendos scripserit, cetero euismod detracto qui ei. Evertitur tincidunt sed te, ut inani persecuti eum. Paulo indoctum pertinacia sit ea, duis exerci has id, pro ex rebum possim quaerendum.Lorem ipsum dolor sit amet, ei per habeo legendos scripserit, cetero euismod detracto qui ei. Lorem ipsum dolor sit amet, ei per habeo legendos scripserit, cetero euismod detracto qui ei. Evertitur tincidunt sed te, ut inani persecuti eum. Paulo indoctum pertinacia sit ea, duis exerci has id, pro ex rebum possim quaerendum.Lorem ipsum dolor sit amet, ei per habeo legendos scripserit, cetero euismod detracto qui ei.
+</p>
+</div>
+	
+<div class="row" id="demo-row">
+<div class="col-6">
+<button class="button" id="demo-btn"><a href="#"><i class="fa fa-eye" aria-hidden="true"></i>DEMO</a></button>
+</div>
+
+<div class="col-6">
+<button class="button" id="demo-btn"><a href="#"><i class="fa fa-code" aria-hidden="true"></i>CODE</a></button>
+</div>
+</div>      
+</div>
+        
+<div class="modal-footer">
+<h3>PROJECT #4</h3>
+</div>   
+</div>
+</div>
+</div> 
+<!--PROJECT #4 Modal-->
+    
+    
+    
+    
+<!--PROJECT #5 Modal-->
+<div id="myModal7" class="modal">
+
+<div class="modal-content">
+<div class="modal-header">
+<span class="close">×</span>
+</div>
+      
+<div class="modal-body">
+<div class="row">
+<div class="col-sm-12">
+<div id="demo7" class="carousel slide" data-ride="carousel" data-interval="false">
+
+  
+<div class="carousel-inner">
+<div class="carousel-item active">
+<img src="images/placeholder-image.jpg" alt="#" width="110px" height="300px">
+</div>
+    
+<div class="carousel-item">
+<img src="images/placeholder-image.jpg" alt="#" width="110px" height="300px">
+</div>
+
+         
+<div class="carousel-item">
+<video width="100%" controls>
+<source src="" type="video/mp4">
+<source src="" type="video/ogg">
+Your browser does not support HTML5 video.
+</video> 
+</div>
+</div>
+  
+    
+<a class="carousel-control-prev" href="#demo7" data-slide="prev">
+<span class="carousel-control-prev-icon"></span>
+</a>
+    
+<a class="carousel-control-next" href="#demo7" data-slide="next">
+<span class="carousel-control-next-icon"></span>
+</a>
+</div>
+
+          
+<h3>PROJECT #5</h3> 
+<p>Lorem ipsum dolor sit amet, ei per habeo legendos scripserit, cetero euismod detracto qui ei. Evertitur tincidunt sed te, ut inani persecuti eum. Paulo indoctum pertinacia sit ea, duis exerci has id, pro ex rebum possim quaerendum.
+<br>
+<br>
+Lorem ipsum dolor sit amet, ei per habeo legendos scripserit, cetero euismod detracto qui ei. Evertitur tincidunt sed te, ut inani persecuti eum. Paulo indoctum pertinacia sit ea, duis exerci has id, pro ex rebum possim quaerendum.Lorem ipsum dolor sit amet, ei per habeo legendos scripserit, cetero euismod detracto qui ei. Lorem ipsum dolor sit amet, ei per habeo legendos scripserit, cetero euismod detracto qui ei. Evertitur tincidunt sed te, ut inani persecuti eum. Paulo indoctum pertinacia sit ea, duis exerci has id, pro ex rebum possim quaerendum.Lorem ipsum dolor sit amet, ei per habeo legendos scripserit, cetero euismod detracto qui ei.
+</p>
+</div>
+	
+<div class="row" id="demo-row">
+<div class="col-6">
+<button class="button" id="demo-btn"><a href="#"><i class="fa fa-eye" aria-hidden="true"></i>DEMO</a></button>
+</div>
+
+<div class="col-6">
+<button class="button" id="demo-btn"><a href="#"><i class="fa fa-code" aria-hidden="true"></i>CODE</a></button>
+</div>
+</div>  
+</div>      
+       
+
+<div class="modal-footer">
+<h3>PROJECT #5</h3>
+</div>    
+</div>
+</div> 
+</div>   
+<!--PROJECT #5 Modal-->  
+    
+    
+    
+    
+<!--PROJECT #6 Modal-->
+<div id="myModal8" class="modal">
+
+<div class="modal-content">
+<div class="modal-header">
+<span class="close">×</span>
+</div>
+      
+<div class="modal-body">      
+<div class="row">
+<div class="col-sm-12">
+<div id="demo8" class="carousel slide" data-ride="carousel" data-interval="false">
+ 
+    
+<div class="carousel-inner">
+<div class="carousel-item active">
+<img src="images/placeholder-image.jpg" alt="#" width="110px" height="300px">
+</div>
+    
+<div class="carousel-item">
+<img src="images/placeholder-image.jpg" alt="#" width="110px" height="300px">
+</div>
+</div>
+  
+    
+<a class="carousel-control-prev" href="#demo8" data-slide="prev">
+<span class="carousel-control-prev-icon"></span>
+</a>
+    
+<a class="carousel-control-next" href="#demo8" data-slide="next">
+<span class="carousel-control-next-icon"></span>
+</a>
+</div>
+
+
+<h3>PROJECT #6</h3> 
+<p>Lorem ipsum dolor sit amet, ei per habeo legendos scripserit, cetero euismod detracto qui ei. Evertitur tincidunt sed te, ut inani persecuti eum. Paulo indoctum pertinacia sit ea, duis exerci has id, pro ex rebum possim quaerendum.
+<br>
+<br>
+Lorem ipsum dolor sit amet, ei per habeo legendos scripserit, cetero euismod detracto qui ei. Evertitur tincidunt sed te, ut inani persecuti eum. Paulo indoctum pertinacia sit ea, duis exerci has id, pro ex rebum possim quaerendum.Lorem ipsum dolor sit amet, ei per habeo legendos scripserit, cetero euismod detracto qui ei. Lorem ipsum dolor sit amet, ei per habeo legendos scripserit, cetero euismod detracto qui ei. Evertitur tincidunt sed te, ut inani persecuti eum. Paulo indoctum pertinacia sit ea, duis exerci has id, pro ex rebum possim quaerendum.Lorem ipsum dolor sit amet, ei per habeo legendos scripserit, cetero euismod detracto qui ei.
+</p>
+</div>
+<div class="row" id="demo-row">
+<div class="col-6">
+<button class="button" id="demo-btn"><a href="#"><i class="fa fa-eye" aria-hidden="true"></i>DEMO</a></button>
+</div>
+
+<div class="col-6">
+<button class="button" id="demo-btn"><a href="#"><i class="fa fa-code" aria-hidden="true"></i>CODE</a></button>
+</div>
+</div>  
+</div>
+
+         
+<div class="modal-footer">
+<h3>PROJECT #6</h3>
+</div>     
+</div>
+</div>
+</div>   
+<!--PROJECT #6 Modal--> 
+    
+    
+
+  
+<!--PROJECT #3 Modal-->
+<div id="myModal9" class="modal">
+
+
+<div class="modal-content">
+<div class="modal-header">
+<span class="close">×</span>
+</div>
+      
+<div class="modal-body">       
+<div class="row">
+<div class="col-sm-12">
+<div id="demo9" class="carousel slide" data-ride="carousel" data-interval="false">
+ 
+    
+<div class="carousel-inner">
+<div class="carousel-item active">
+<img src="images/placeholder-image.jpg" alt="#" width="110px" height="300px">
+</div>
+    
+<div class="carousel-item">
+<img src="images/placeholder-image.jpg" alt="#" width="110px" height="300px">
+</div>
+</div>
+  
+
+<a class="carousel-control-prev" href="#demo9" data-slide="prev">
+<span class="carousel-control-prev-icon"></span>
+</a>
+    
+<a class="carousel-control-next" href="#demo9" data-slide="next">
+<span class="carousel-control-next-icon"></span>
+</a>
+</div>
+
+
+<h3>PROJECT #3</h3> 
+<p>Lorem ipsum dolor sit amet, ei per habeo legendos scripserit, cetero euismod detracto qui ei. Evertitur tincidunt sed te, ut inani persecuti eum. Paulo indoctum pertinacia sit ea, duis exerci has id, pro ex rebum possim quaerendum.
+<br>
+<br>
+Lorem ipsum dolor sit amet, ei per habeo legendos scripserit, cetero euismod detracto qui ei. Evertitur tincidunt sed te, ut inani persecuti eum. Paulo indoctum pertinacia sit ea, duis exerci has id, pro ex rebum possim quaerendum.Lorem ipsum dolor sit amet, ei per habeo legendos scripserit, cetero euismod detracto qui ei. Lorem ipsum dolor sit amet, ei per habeo legendos scripserit, cetero euismod detracto qui ei. Evertitur tincidunt sed te, ut inani persecuti eum. Paulo indoctum pertinacia sit ea, duis exerci has id, pro ex rebum possim quaerendum.Lorem ipsum dolor sit amet, ei per habeo legendos scripserit, cetero euismod detracto qui ei.
+</p>
+</div>
+	
+<div class="row" id="demo-row">
+<div class="col-6">
+<button class="button" id="demo-btn"><a href="#"><i class="fa fa-eye" aria-hidden="true"></i>DEMO</a></button>
+</div>
+
+<div class="col-6">
+<button class="button" id="demo-btn"><a href="#"><i class="fa fa-code" aria-hidden="true"></i>CODE</a></button>
+</div>
+</div>    
+</div>
+
+        
+<div class="modal-footer">
+<h3>PROJECT #3</h3>
+</div>     
+</div>
+</div>
+</div>   
+<!--PROJECT #3 Modal-->    
+    
+    
+    
+    
+<!--FOOTER SECTION-->    
+<div class="footer" id="footersection">
+    
+<div class="container-fluid">
+<div class="row">  
+<a href="mailto:" target="_blank" class="btn-contact2">
+<span class="content">GET IN TOUCH</span>
+</a>
+</div>
+</div>    
+
+<div class="footer-social-icons">
+<ul>
+<li><a href="" target="blank"><i class="fa fa-github"></i></a></li>
+
+<li><a href="#" target="blank"><i class="fa fa-linkedin"></i></a></li>
+
+<li><a href="#" target="blank"><i class="fa fa-instagram"></i></a></li>  
+</ul>
+</div>
+</div>
+    
+<div class="footer-menu-one">
+<ul>
+<li>BUILT BY NATHAN PARCHMENT © 2020</li>
+</ul>    
+</div>  
+<!--FOOTER SECTION-->  
+
+    
+    
+<!--SCRIPTS-->   
+<script src="script.js"></script>  
+<script src="stickynav.js"></script>
+<script src="filter.js"></script>
+<script src="modal.js"></script>
+
+    
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>   
+    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!--SCRIPTS-->    
+</body>
+</html>
