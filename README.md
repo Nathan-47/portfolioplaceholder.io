@@ -1,6 +1,6 @@
-# portfolioplaceholder
+# Portfolio Placeholder
 
-## Table of contents
+## Table of Contents
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Status](#status)
