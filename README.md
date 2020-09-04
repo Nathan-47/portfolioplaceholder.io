@@ -23,7 +23,7 @@ This project is.
 ## Technologies
 ### What technologies are used in this project?
 Project created with:
-* 
+* HTML5
 * 
 * 
 * 
